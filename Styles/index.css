@@ -1,12 +1,12 @@
 :root {
     --primary-color: #ffb6b6;
-    --seconday-color: #d9d9d9;
-    --Primary-background: #a5a5a5;
+    --secondary-color: #d9d9d9;
+    --primary-background: #a5a5a5;
 }
 
 body {
     margin: 0;
-    background-color: var(--Primary-background);
+    background-color: var(--primary-background);
 
     display: flex;
     flex-direction: column;
@@ -25,12 +25,12 @@ header {
 }
 
 .logo-name img {
-    height: 100px;
+    height: 40px;
 }
 
 .name {
-    font-size: 24px;
-    margin-top: 0;
+    font-size: 28px;
+    margin: 0;
 }
 
 .coder-text {
@@ -38,13 +38,13 @@ header {
 }
 
 .academy-text {
-    color: #45A7C5
+    color: #45A7C5;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav a {
@@ -66,14 +66,41 @@ footer {
 
 .social-media a i {
     color: #1C3C5C;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .info {
     color: #1C3C5C;
-
 }
 
 .info p {
-    margin: 5px 0px;
+    margin: 5px 0;
+}
+
+@media screen and (min-width: 576px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .logo-name {
+        margin-bottom: 0;
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    .social-media {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 0 15vw;
+    }
 }
