@@ -2,7 +2,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap: 24px; */
 }
 
 article {
@@ -16,3 +15,7 @@ article {
 .service-image img {
     width: 300px;
 }
+
+/* .service-title {
+    margin-left: 15px;
+} */
