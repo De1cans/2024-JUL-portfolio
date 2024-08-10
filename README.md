@@ -61,4 +61,7 @@ Home page is the starting page of the website which consists of a cover image an
 Services page shows different services provided by the company such as web development.
 
 ### Contact
-The contact page allows user to contact the company by providing different information. 
+The contact page allows user to contact the company by providing different information.
+
+### About 
+The about page provides some information about the company to the users. 
